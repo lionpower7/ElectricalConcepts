@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Open+Sans|PT+Sans');
+
+/*Display's, Size & Position*/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainBX {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.firstBXSect {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20vh;
+  width: 90%;
+}
+
+.secondBXSect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 90%;
+}
+
+#conceptSearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 80%;
+}
+
+.cptSearchForm form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 12vh;
+  width: 50vw;
+}
+
+/* All Others Styles*/
+.mainBX {
+  background-color: #222322;
+}
+
+.firstBXSect a {
+  text-decoration: none;
+  color: #00c6aa;
+  font-family: "Bungee", sans-serif;
+  background-color: ;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.firstBXSect a:hover {
+  color: #fff;
+  transition: 1s;
+}
+
+#wordConcept {
+  color: #F0F2F4;
+}
+
+#textConcepts {
+  text-align: center;
+  background-image: linear-gradient(to top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+#textConcepts h2 {
+  font-family: "PT Sans", sans-serif;
+  color: #F0F2F4;
+}
+
+form.theForm {
+  padding: 0px;
+  background: #F0F2F4;
+  border-radius: 5px;
+}
+
+.cptSearchForm form input {
+  width: 90%;
+  height: 5%;
+  margin: 3px;
+  text-align: center;
+  font-family: "PT Sans", "Bungee", sans-serif, cursive;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.cptSearchForm form input:last-child {
+  height: 25%;
+  width: 95%;
+  font-family: "PT Sans", "Bungee", sans-serif, cursive;
+  background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  border: none;
+  border-radius: 5px;
+}
