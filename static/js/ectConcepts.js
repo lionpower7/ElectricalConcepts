@@ -147,5 +147,6 @@ function showList() {
 
   // Add The List To The 2nd Section In Our HTML
   theMid.appendChild(listBox);
-
+  
+  listPush.style.display = 'none';
 }
