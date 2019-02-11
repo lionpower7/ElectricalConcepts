@@ -137,10 +137,11 @@ function showList() {
   listBox.style.background = lbg;
   listBox.style.color = 'gray';
   listBox.style.listStyle = 'none';
-  listBox.style.height = '90%';
-  listBox.style.width = '90%';
+  listBox.style.height = '66%';
+  listBox.style.width = '85%';
   listBox.style.borderRadius = '10px';
   listBox.style.padding = '10px';
+  listBox.style.paddingBottom = '0px';
   listBox.style.fontFamily = 'Quicksand';
   listBox.style.fontSize = '2.1rem';
   listBox.style.textAlign = 'center';
