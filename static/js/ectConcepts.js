@@ -137,13 +137,13 @@ function showList() {
   listBox.style.background = lbg;
   listBox.style.color = 'gray';
   listBox.style.listStyle = 'none';
-  listBox.style.height = '66%';
-  listBox.style.width = '85%';
+  listBox.style.height = '48%';
+  listBox.style.width = '70%';
   listBox.style.borderRadius = '10px';
   listBox.style.padding = '10px';
   listBox.style.paddingBottom = '0px';
   listBox.style.fontFamily = 'Quicksand';
-  listBox.style.fontSize = '2.1rem';
+  listBox.style.fontSize = '1.5rem';
   listBox.style.textAlign = 'center';
 
   // Add The List To The 2nd Section In Our HTML
